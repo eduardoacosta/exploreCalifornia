@@ -1,0 +1,18 @@
+# Comment
+temp.txt
+*.txt
+.DS_Store
+*.zip
+*.gz
+*.log
+*.log.[0-9]
+
+
+#sub directories are still tracked
+# excludes all files at photoshop directory, but photo01 IS included
+assets/photoshop/
+!assets/photoshop/photo01.jpg
+
+
+
+
